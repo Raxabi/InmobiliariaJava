@@ -12,9 +12,6 @@ function compileForClassPath () {
 
     if ($run) {
         java.exe -cp $class_path .\InModelo.java
-    } else {
-        Write-Host "Puedes ejecutar tambien despues de la compilacion
-        pasandole '-run' como argumento de la linea de comandos"
     }
 }
 
