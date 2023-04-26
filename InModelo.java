@@ -15,7 +15,7 @@ public class InModelo {
 		// A�adir el control de cierre de ventana, pack, ....
         ventana.pack();
 
-        ventana.setSize(800,800);
+        ventana.setSize(800,600);
         ventana.setResizable(true);
         ventana.setVisible(true);
         ventana.setLocationRelativeTo(null);
